@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: foxglove-studio
+    branches: lichtblick-studio
     tags: v*
   pull_request:
     branches: "*"
