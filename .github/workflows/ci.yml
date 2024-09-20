@@ -2,19 +2,18 @@ name: CI
 
 on:
   push:
-    branches: foxglove-studio
+    branches: [main]
     tags: v*
   pull_request:
     branches: "*"
 
 jobs:
-  all:
-    name: all
+  push:
+    name: push
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
-
       - uses: actions/setup-node@v2
         with:
           node-version: 14

@@ -1,7 +1,7 @@
 {
-  "name": "@foxglove/chartjs-plugin-zoom",
+  "name": "@lichtblick/chartjs-plugin-zoom",
   "description": "Plugin that enables zoom and pan functionality in Chart.js charts.",
-  "version": "2.0.4",
+  "version": "1.0.0",
   "license": "MIT",
   "jsdelivr": "dist/chartjs-plugin-zoom.min.js",
   "unpkg": "dist/chartjs-plugin-zoom.min.js",
@@ -10,7 +10,11 @@
   "types": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chartjs/chartjs-plugin-zoom.git"
+    "url": "https://github.com/Lichtblick-Suite/chartjs-plugin-zoom.git"
+  },
+  "author": {
+    "name": "Lichtblick",
+    "email": "lichtblick@bmwgroup.com"
   },
   "scripts": {
     "prepack": "yarn build",

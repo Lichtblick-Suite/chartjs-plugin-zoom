@@ -1,3 +1,5 @@
 describe('pan', function() {
-  describe('auto', jasmine.fixture.specs('pan'));
+  it('should pan correctly', function() {
+    jasmine.fixture.specs('pan');
+  });
 });
